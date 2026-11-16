@@ -1,0 +1,23 @@
+# Henter friske tal hver morgen og gemmer dem i repoet. Vercel bygger en ny udgave ved hvert push.
+name: Opdater data
+on:
+  schedule:
+    - cron: '15 4 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  opdater:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node build.mjs --hent
+      - run: |
+          git config user.name "Automatisk opdatering"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Opdater data"
+          git push
