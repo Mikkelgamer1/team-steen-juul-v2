@@ -210,7 +210,7 @@ const partnere = () => (!PARTNERE.length ? '' : `
   <div class="wrap partnere">
     <div>
       ${etiket('Samarbejdspartnere', ' data-vis')}
-      <h2 data-vis style="--i:1">Med på holdet.</h2>
+      <h2 data-vis style="--i:1">Med på holdet</h2>
     </div>
     <ul class="partnere__liste">${PARTNERE.map((p, i) => `
       <li data-vis style="--i:${i + 1}"><a href="${p.url}" target="_blank" rel="noopener"><img src="${R}assets/img/${p.logo}" width="${p.b}" height="${p.h}" alt="${esc(p.navn)}" loading="lazy"><span>${esc(p.tekst)} ${ud}</span>${nyFane}</a></li>`).join('')}
@@ -501,7 +501,7 @@ const baneTekst = (o) => {
   if (!hjem) return `Charlottenlund Trav har været hjemmebanen siden 1983.${sverige}`;
   return (top !== hjem && top.sejre > hjem.sejre
     ? `Charlottenlund er hjemmebanen med ${hjem.antal} starter i ${o.saeson.aar} – men flest sejre kommer i ${top.navn}: ${sejreTekst(top.sejre)} på ${top.antal} starter.`
-    : `Charlottenlund er hjemmebanen siden 1983 – og her kommer også flest sejre: ${sejreTekst(hjem.sejre)} på ${hjem.antal} starter i ${o.saeson.aar}.`) + sverige;
+    : `Hjemmebanen er også der, hvor flest sejre kommer: ${sejreTekst(hjem.sejre)} på ${hjem.antal} starter i ${o.saeson.aar}.`) + sverige;
 };
 
 const banebjaelker = (banetal) => {
@@ -561,7 +561,7 @@ const foelgIndhold = (fb = []) => `
   <div class="wrap foelg">
     <div>
       ${etiket('Følg med', ' data-vis')}
-      <h2 data-vis style="--i:1">Løbsdagene, før de sker.</h2>
+      <h2 data-vis style="--i:1">Løbsdagene, før de sker</h2>
       <p data-vis style="--i:2">På Facebook gennemgår Team Juul staldens starter før hver løbsdag – hest for hest – og fortæller, hvordan det gik${fb.length ? '. Her er de seneste opslag' : ''}.</p>
     </div>
     <div class="sociale" data-vis style="--i:2">${SITE.facebook ? social(SITE.facebook, FB_IKON, 'Facebook', SITE.facebook.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '').replace('/', '/<wbr>'), 'loeb-6') : ''}${SITE.instagram ? social(SITE.instagram, IG_IKON, 'Instagram', '@' + SITE.instagram.replace(/\/$/, '').split('/').pop(), 'tribune') : ''}
@@ -631,7 +631,7 @@ const forside = (o, data) => {
     <figure class="traener__foto" data-vis>${billede('extreme', 'Steen Juul og derbyvinderen Extreme med buketten efter en sejr', { sizes: '(min-width: 901px) 34vw, 90vw' })}</figure>
     <div>
       ${etiket(SITE.fornavn, ' data-vis')}
-      <h2 data-vis style="--i:1">En legende på Lunden.</h2>
+      <h2 data-vis style="--i:1">En legende på Lunden</h2>
       <p class="indled" data-vis style="--i:2">${SITE.fornavn} kørte sit første løb i 1968, blev selvstændig træner i 1974 og har haft Charlottenlund som hjemmebane siden 1983. I dag har han ${data.traener.licens}-licens som både træner og kusk.</p>
       <p data-vis style="--i:3">Ti sejre i Dansk Trav Derby som kusk – fra For Ever Vixi i 1983 til Festival of Speed i 2021 – tangerer N. J. Kosters rekord. Travsportens Hall of Fame siger det kort: »Steen Juul vil vinde – hver gang.«</p>
       <dl class="nogle" data-vis style="--i:4">
@@ -649,7 +649,7 @@ const forside = (o, data) => {
     <div class="sekhoved">
       <div>
         ${etiket('Hestene', ' data-vis')}
-        <h2 data-vis style="--i:1">Holdet lige nu.</h2>
+        <h2 data-vis style="--i:1">Holdet lige nu</h2>
       </div>
       <p data-vis style="--i:2">${o.heste.length} heste står på træningslisten${o.ungheste.length > 1 ? ` – ${o.heste.length - o.ungheste.length} i løbsalderen og ${o.ungheste.length} ungheste på vej` : ''}.</p>
     </div>
@@ -666,7 +666,7 @@ const forside = (o, data) => {
     <div class="sekhoved">
       <div>
         ${etiket('Stalden', ' data-vis')}
-        <h2 data-vis style="--i:1">Fra løbsdagene.</h2>
+        <h2 data-vis style="--i:1">Fra løbsdagene</h2>
       </div>
       <p data-vis style="--i:2">Buketter, laurbærkranse og hverdag på banen. Billeder fra Team Juuls Facebook-side.</p>
     </div>
@@ -680,7 +680,7 @@ const forside = (o, data) => {
     <div class="sekhoved">
       <div>
         ${etiket('Fra banen', ' data-vis')}
-        <h2 data-vis style="--i:1">Seneste resultater.</h2>
+        <h2 data-vis style="--i:1">Seneste resultater</h2>
       </div>
       <p data-vis style="--i:2">Opdateret ${o.opdateret} fra Dansk Hestevæddeløb.</p>
     </div>
@@ -704,7 +704,7 @@ const forside = (o, data) => {
   <div class="wrap duo">
     <div>
       ${etiket('Banerne', ' data-vis')}
-      <h2 data-vis style="--i:1">Hjemme på Lunden – ude i hele landet.</h2>
+      <h2 data-vis style="--i:1">Hjemme på Lunden – ude i hele landet</h2>
       <p class="indled" data-vis style="--i:2">${baneTekst(o)}</p>
       <div data-vis style="--i:3">${banebjaelker(o.sejrsbaner)}</div>
     </div>
@@ -748,7 +748,7 @@ const tidslinje = () => {
     <div class="sekhoved">
       <div>
         ${etiket('Karrieren', ' data-vis')}
-        <h2 data-vis style="--i:1">Ti derbysejre og næsten 8.000 sejre.</h2>
+        <h2 data-vis style="--i:1">Ti derbysejre og næsten 8.000 sejre</h2>
       </div>
       <p data-vis style="--i:2">Udvalgte højdepunkter fra mere end 55 år i sulkyen.</p>
     </div>
@@ -790,18 +790,18 @@ ${sidehoved({
     </aside>
     <div class="prosa">
       ${etiket('Historien', ' data-vis')}
-      <h2 data-vis>Skive-drengen.</h2>
+      <h2 data-vis>Skive-drengen</h2>
       <p class="indled" data-vis>${SITE.person} er født den 20. august 1950 og lærte faget hos Victor Borregård i Skive og senere hos Jørgen Hill og svigerfaren Børge Simonsen i Aarhus.</p>
       <p data-vis>Debuten kom den 31. august 1968 med Karat – og blev til sejr i første forsøg. Den 1. december 1974 blev han som 24-årig selvstændig træner, og i 1980 blev han landschampion for første gang med en ny sæsonrekord på 216 sejre.</p>
       <p data-vis>Copperfield, som Steen selv kalder den første store stjerne i stalden, vandt blandt andet Fyens 4-års Grand Prix og Aalborg Store Pris og blev nr. 3 i Dansk Trav Derby.</p>
-      <h2 data-vis>Lunden.</h2>
+      <h2 data-vis>Lunden</h2>
       <p data-vis>Den 15. januar 1983 flyttede Steen Juul til Charlottenlund. Samme år vandt Dilli Hanover i 1.13,5 – verdensrekord for hopper på 1000-meterbane – og For Ever Vixi gav den første derbysejr. Hesten var købt i Sverige godt en uge før løbet.</p>
       <figure class="prosa__foto" data-vis>${billede('vixi-ejer', 'For Ever Vixi med Steen Juul og ejeren Ivar Hvidtfeldt', { sizes: '(min-width: 1000px) 60vw, 92vw' })}<figcaption>For Ever Vixi med Steen Juul og ejeren Ivar Hvidtfeldt · Foto: Burt Seeger</figcaption></figure>
       <p data-vis>I 1985 fulgte det første Kriterium med Join Løjbjerg og det første af 35 championater på Charlottenlund til og med 2024.</p>
-      <h2 data-vis>Ude i Europa.</h2>
+      <h2 data-vis>Ude i Europa</h2>
       <p data-vis>Det største år ude kom i 2002. Legendary Lover K vandt Copenhagen Cup, Elite Rennen i Gelsenkirchen, Momarken Grand Prix og Kymi Grand Prix og blev den hidtil eneste dansktrænede samlede vinder af den europæiske Grand Circuit. Året efter blev parret nr. 7 i Prix d’Amérique.</p>
       <figure class="prosa__foto" data-vis>${billede('k-2002', 'Legendary Lover K vinder Copenhagen Cup 2002', { sizes: '(min-width: 1000px) 60vw, 92vw' })}<figcaption>Legendary Lover K vinder Copenhagen Cup 2002 · Kilde: thof.dk</figcaption></figure>
-      <h2 data-vis>I dag.</h2>
+      <h2 data-vis>I dag</h2>
       <p data-vis>${SITE.navn} har ${o.heste.length} heste på træningslisten og stalden i ${SITE.sted} ved ${SITE.by}. I ${o.saeson.aar} er det indtil videre blevet til ${o.saeson.sejre} sejre på ${o.saeson.starter} starter som træner${o.jockey ? ` – og staldens jockey, ${SITE.kusk.navn}, kører mange af hestene` : ''}.</p>
       <p class="valg" data-vis>${ekstern(SITE.travinfo, 'Profilen på Travinfo')} ${ekstern(SITE.thof, 'Hall of Fame-artiklen')}</p>
       <p class="note" data-vis>Kilder: Travsportens Hall of Fame (thof.dk), da.wikipedia.org (Steen Juul; Dansk Trav Derby), Sjællandske Medier (1. december 2024), Team Juul på Facebook og Dansk Hestevæddeløb.</p>
@@ -814,7 +814,7 @@ ${sidehoved({
     <div class="sekhoved">
       <div>
         ${etiket('Statistik', ' data-vis')}
-        <h2 data-vis style="--i:1">Sæson for sæson.</h2>
+        <h2 data-vis style="--i:1">Sæson for sæson</h2>
       </div>
       <p data-vis style="--i:2">Officielle tal fra Dansk Hestevæddeløb, opdateret ${o.opdateret}.</p>
     </div>
@@ -844,7 +844,7 @@ ${sidehoved({
     <div class="sekhoved">
       <div>
         ${etiket('Det tilbyder stalden', ' data-vis')}
-        <h2 data-vis style="--i:1">Fra første tilkøring til målstregen.</h2>
+        <h2 data-vis style="--i:1">Fra første tilkøring til målstregen</h2>
       </div>
       <p data-vis style="--i:2">Kontakt ${SITE.fornavn} for pris.</p>
     </div>
@@ -857,7 +857,7 @@ ${sidehoved({
     <div class="sekhoved">
       <div>
         ${etiket('Hverdagen', ' data-vis')}
-        <h2 data-vis style="--i:1">Løbsdage.</h2>
+        <h2 data-vis style="--i:1">Løbsdage</h2>
       </div>
       <p data-vis style="--i:2">Billeder fra Team Juuls Facebook-side.</p>
     </div>
@@ -869,7 +869,7 @@ ${sidehoved({
   <div class="wrap duo">
     <div>
       ${etiket('Hjemmebanen', ' data-vis')}
-      <h2 data-vis style="--i:1">Charlottenlund Trav.</h2>
+      <h2 data-vis style="--i:1">Charlottenlund Trav</h2>
       <p class="indled" data-vis style="--i:2">Nordens ældste travbane, grundlagt i 1891 – og banen, hvor Dansk Trav Derby køres hvert år. Steen Juul har haft Lunden som base siden den 15. januar 1983.</p>
       <p data-vis style="--i:3">${baneTekst(o)}</p>
       <div data-vis style="--i:4">${banebjaelker(o.sejrsbaner)}</div>
@@ -975,7 +975,7 @@ ${sidehoved({
     <div class="sekhoved">
       <div>
         ${etiket('Statistik', ' data-vis')}
-        <h2 data-vis style="--i:1">Sæson for sæson.</h2>
+        <h2 data-vis style="--i:1">Sæson for sæson</h2>
       </div>
       <p data-vis style="--i:2">Alle resultater og detaljer findes hos Dansk Hestevæddeløb. ${ekstern(SITE.travinfo, 'Åbn Travinfo')}</p>
     </div>
