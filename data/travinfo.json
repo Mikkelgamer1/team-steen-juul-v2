@@ -1,0 +1,583 @@
+{
+ "opdateret": "2026-11-16T22:14:02.205Z",
+ "traenerStatistik": [
+  {
+   "aar": 2026,
+   "starter": 240,
+   "sejre": 49,
+   "toer": 32,
+   "treer": 25,
+   "procent": 20,
+   "praemier": 2426669
+  },
+  {
+   "aar": 2025,
+   "starter": 406,
+   "sejre": 62,
+   "toer": 72,
+   "treer": 38,
+   "procent": 15,
+   "praemier": 2800949
+  },
+  {
+   "aar": 2024,
+   "starter": 411,
+   "sejre": 82,
+   "toer": 50,
+   "treer": 54,
+   "procent": 20,
+   "praemier": 3500327
+  },
+  {
+   "aar": 2023,
+   "starter": 376,
+   "sejre": 72,
+   "toer": 40,
+   "treer": 38,
+   "procent": 19,
+   "praemier": 3247250
+  },
+  {
+   "aar": 2022,
+   "starter": 427,
+   "sejre": 75,
+   "toer": 53,
+   "treer": 67,
+   "procent": 18,
+   "praemier": 4482103
+  }
+ ],
+ "heste": [
+  {
+   "id": 655674,
+   "navn": "Charlie Munger (SE)",
+   "alder": 4,
+   "koen": "Vallak",
+   "praemier": 44500
+  },
+  {
+   "id": 660306,
+   "navn": "Dutchess Sun (NO)",
+   "alder": 7,
+   "koen": "Hoppe",
+   "praemier": 1078580
+  },
+  {
+   "id": 643267,
+   "navn": "Frodo Cash",
+   "alder": 9,
+   "koen": "Vallak",
+   "praemier": 1616023
+  },
+  {
+   "id": 656666,
+   "navn": "Get In Your Pj's (SE)",
+   "alder": 4,
+   "koen": "Hoppe",
+   "praemier": 168427
+  },
+  {
+   "id": 649707,
+   "navn": "Ikarus",
+   "alder": 6,
+   "koen": "Hingst",
+   "praemier": 141084
+  },
+  {
+   "id": 651251,
+   "navn": "Keep The Money",
+   "alder": 5,
+   "koen": "Vallak",
+   "praemier": 190986
+  },
+  {
+   "id": 650853,
+   "navn": "King Darling",
+   "alder": 5,
+   "koen": "Hingst",
+   "praemier": 139104
+  },
+  {
+   "id": 654349,
+   "navn": "Lanson",
+   "alder": 4,
+   "koen": "Vallak",
+   "praemier": 361576
+  },
+  {
+   "id": 654582,
+   "navn": "Lemmy",
+   "alder": 4,
+   "koen": "Hingst",
+   "praemier": 140911
+  },
+  {
+   "id": 653150,
+   "navn": "Lets Go Ostedantik",
+   "alder": 4,
+   "koen": "Hoppe",
+   "praemier": 714138
+  },
+  {
+   "id": 653593,
+   "navn": "Limerick Downs",
+   "alder": 4,
+   "koen": "Hingst",
+   "praemier": 123750
+  },
+  {
+   "id": 656378,
+   "navn": "Madison Tårs",
+   "alder": 3,
+   "koen": "Vallak",
+   "praemier": 8000
+  },
+  {
+   "id": 657131,
+   "navn": "Magic Bird",
+   "alder": 3,
+   "koen": "Vallak",
+   "praemier": 0
+  },
+  {
+   "id": 656672,
+   "navn": "Manifeellikeawoman",
+   "alder": 3,
+   "koen": "Hoppe",
+   "praemier": 51750
+  },
+  {
+   "id": 656574,
+   "navn": "Mason",
+   "alder": 3,
+   "koen": "Vallak",
+   "praemier": 34500
+  },
+  {
+   "id": 657011,
+   "navn": "Max Flax",
+   "alder": 3,
+   "koen": "Vallak",
+   "praemier": 24500
+  },
+  {
+   "id": 655733,
+   "navn": "Merci Beaucoup",
+   "alder": 3,
+   "koen": "Hoppe",
+   "praemier": 0
+  },
+  {
+   "id": 656819,
+   "navn": "Mindy",
+   "alder": 3,
+   "koen": "Hoppe",
+   "praemier": 57838
+  },
+  {
+   "id": 656721,
+   "navn": "Monkey Osted Antik",
+   "alder": 3,
+   "koen": "Vallak",
+   "praemier": 88137
+  },
+  {
+   "id": 656701,
+   "navn": "Monterey Market",
+   "alder": 3,
+   "koen": "Hoppe",
+   "praemier": 739880
+  },
+  {
+   "id": 656907,
+   "navn": "Moon Landing",
+   "alder": 3,
+   "koen": "Hoppe",
+   "praemier": 38500
+  },
+  {
+   "id": 658940,
+   "navn": "Nabucco",
+   "alder": 2,
+   "koen": "Hingst",
+   "praemier": 95844
+  },
+  {
+   "id": 658797,
+   "navn": "Naomi Sotto",
+   "alder": 2,
+   "koen": "Hoppe",
+   "praemier": 0
+  },
+  {
+   "id": 659009,
+   "navn": "Navigator",
+   "alder": 2,
+   "koen": "Hingst",
+   "praemier": 0
+  },
+  {
+   "id": 658796,
+   "navn": "Nea Sensei",
+   "alder": 2,
+   "koen": "Hoppe",
+   "praemier": 0
+  },
+  {
+   "id": 658854,
+   "navn": "Nelson Tårs",
+   "alder": 2,
+   "koen": "Vallak",
+   "praemier": 0
+  },
+  {
+   "id": 659013,
+   "navn": "New Watch",
+   "alder": 2,
+   "koen": "Hoppe",
+   "praemier": 177000
+  },
+  {
+   "id": 658762,
+   "navn": "Nexus",
+   "alder": 2,
+   "koen": "Vallak",
+   "praemier": 0
+  },
+  {
+   "id": 659246,
+   "navn": "Niarkos Flax",
+   "alder": 2,
+   "koen": "Hingst",
+   "praemier": 45000
+  },
+  {
+   "id": 658839,
+   "navn": "Nice Line",
+   "alder": 2,
+   "koen": "Hingst",
+   "praemier": 0
+  },
+  {
+   "id": 658123,
+   "navn": "Nike High",
+   "alder": 2,
+   "koen": "Hingst",
+   "praemier": 0
+  },
+  {
+   "id": 658366,
+   "navn": "Nikoline Tinghøj",
+   "alder": 2,
+   "koen": "Hoppe",
+   "praemier": 0
+  },
+  {
+   "id": 659159,
+   "navn": "Nitouche",
+   "alder": 2,
+   "koen": "Hoppe",
+   "praemier": 0
+  },
+  {
+   "id": 660245,
+   "navn": "Odyssey",
+   "alder": 1,
+   "koen": "Hoppe",
+   "praemier": 0
+  },
+  {
+   "id": 660417,
+   "navn": "Otis Redding",
+   "alder": 1,
+   "koen": "Hingst",
+   "praemier": 0
+  },
+  {
+   "id": 660875,
+   "navn": "Ottey Hancock",
+   "alder": 1,
+   "koen": "Hoppe",
+   "praemier": 0
+  },
+  {
+   "id": 662250,
+   "navn": "Readyornot (SE)",
+   "alder": 1,
+   "koen": "Hoppe",
+   "praemier": 0
+  },
+  {
+   "id": 661747,
+   "navn": "Renewable (SE)",
+   "alder": 1,
+   "koen": "Hingst",
+   "praemier": 0
+  },
+  {
+   "id": 661626,
+   "navn": "Son Of Crys (US)",
+   "alder": 3,
+   "koen": "Hingst",
+   "praemier": 36339
+  },
+  {
+   "id": 660443,
+   "navn": "Staro Wizard (SE)",
+   "alder": 2,
+   "koen": "Hingst",
+   "praemier": 0
+  }
+ ],
+ "resultater": [
+  {
+   "dato": "2026-11-15",
+   "bane": "Ny",
+   "hest": "Lets Go Ostedantik",
+   "placering": "d",
+   "tid": "ga",
+   "praemie": 0
+  },
+  {
+   "dato": "2026-11-15",
+   "bane": "Ny",
+   "hest": "Monkey Osted Antik",
+   "placering": "2",
+   "tid": "18,2a",
+   "praemie": 8500
+  },
+  {
+   "dato": "2026-11-11",
+   "bane": "Åb",
+   "hest": "Lanson",
+   "placering": "1",
+   "tid": "14,4",
+   "praemie": 136876
+  },
+  {
+   "dato": "2026-11-11",
+   "bane": "Åb",
+   "hest": "Lucky Mom",
+   "placering": "d",
+   "tid": "g",
+   "praemie": 1711
+  },
+  {
+   "dato": "2026-11-11",
+   "bane": "Åb",
+   "hest": "Monterey Market",
+   "placering": "6",
+   "tid": "14,0a",
+   "praemie": 4106
+  },
+  {
+   "dato": "2026-11-08",
+   "bane": "Ch",
+   "hest": "Nabucco",
+   "placering": "8",
+   "tid": "17,4ag",
+   "praemie": 9000
+  },
+  {
+   "dato": "2026-11-08",
+   "bane": "Ch",
+   "hest": "Niarkos Flax",
+   "placering": "4",
+   "tid": "16,7a",
+   "praemie": 33750
+  },
+  {
+   "dato": "2026-11-08",
+   "bane": "Ch",
+   "hest": "Dutchess Sun (NO)",
+   "placering": "5",
+   "tid": "11,0a",
+   "praemie": 7500
+  },
+  {
+   "dato": "2026-11-08",
+   "bane": "Ch",
+   "hest": "Keep The Money",
+   "placering": "0",
+   "tid": "13,8ag",
+   "praemie": 0
+  },
+  {
+   "dato": "2026-11-08",
+   "bane": "Ch",
+   "hest": "New Watch",
+   "placering": "1",
+   "tid": "16,3a",
+   "praemie": 25000
+  },
+  {
+   "dato": "2026-11-06",
+   "bane": "Od",
+   "hest": "K O Donna",
+   "placering": "5",
+   "tid": "15,4a",
+   "praemie": 2000
+  },
+  {
+   "dato": "2026-11-06",
+   "bane": "Od",
+   "hest": "Warren Buffet (SE)",
+   "placering": "0",
+   "tid": "15,9a",
+   "praemie": 0
+  },
+  {
+   "dato": "2026-11-04",
+   "bane": "Jæ",
+   "hest": "Get In Your Pj's (SE)",
+   "placering": "0",
+   "tid": "14,9a",
+   "praemie": 1027
+  },
+  {
+   "dato": "2026-10-23",
+   "bane": "Od",
+   "hest": "Monkey Osted Antik",
+   "placering": "4",
+   "tid": "14,5a",
+   "praemie": 2500
+  },
+  {
+   "dato": "2026-10-23",
+   "bane": "Od",
+   "hest": "Lanson",
+   "placering": "4",
+   "tid": "13,6ag",
+   "praemie": 30000
+  },
+  {
+   "dato": "2026-10-23",
+   "bane": "Od",
+   "hest": "Lucky Mom",
+   "placering": "0",
+   "tid": "14,6ag",
+   "praemie": 0
+  },
+  {
+   "dato": "2026-10-23",
+   "bane": "Od",
+   "hest": "Love Caviar",
+   "placering": "0",
+   "tid": "14,3a",
+   "praemie": 0
+  },
+  {
+   "dato": "2026-10-23",
+   "bane": "Od",
+   "hest": "Lets Go Ostedantik",
+   "placering": "0",
+   "tid": "14,2a",
+   "praemie": 0
+  },
+  {
+   "dato": "2026-10-23",
+   "bane": "Od",
+   "hest": "Dutchess Sun (NO)",
+   "placering": "1",
+   "tid": "11,5a",
+   "praemie": 15000
+  },
+  {
+   "dato": "2026-10-23",
+   "bane": "Od",
+   "hest": "Lemmy",
+   "placering": "5",
+   "tid": "14,0a",
+   "praemie": 3000
+  },
+  {
+   "dato": "2026-10-21",
+   "bane": "Ch",
+   "hest": "Niarkos Flax",
+   "placering": "3",
+   "tid": "18,2a",
+   "praemie": 5000
+  },
+  {
+   "dato": "2026-10-21",
+   "bane": "Ch",
+   "hest": "Max Flax",
+   "placering": "0",
+   "tid": "opgag",
+   "praemie": 0
+  },
+  {
+   "dato": "2026-10-21",
+   "bane": "Ch",
+   "hest": "Nabucco",
+   "placering": "1",
+   "tid": "18,3a",
+   "praemie": 20000
+  },
+  {
+   "dato": "2026-10-21",
+   "bane": "Ch",
+   "hest": "New Watch",
+   "placering": "5",
+   "tid": "18,8ag",
+   "praemie": 2000
+  },
+  {
+   "dato": "2026-10-13",
+   "bane": "Jæ",
+   "hest": "Son Of Crys (US)",
+   "placering": "4",
+   "tid": "15,4a",
+   "praemie": 5133
+  },
+  {
+   "dato": "2026-10-11",
+   "bane": "Ch",
+   "hest": "Keep The Money",
+   "placering": "5",
+   "tid": "15,4a",
+   "praemie": 3000
+  },
+  {
+   "dato": "2026-10-11",
+   "bane": "Ch",
+   "hest": "K O Donna",
+   "placering": "3",
+   "tid": "14,0a",
+   "praemie": 5000
+  },
+  {
+   "dato": "2026-10-11",
+   "bane": "Ch",
+   "hest": "Monterey Market",
+   "placering": "1",
+   "tid": "13,2a",
+   "praemie": 306000
+  },
+  {
+   "dato": "2026-10-11",
+   "bane": "Ch",
+   "hest": "Moon Landing",
+   "placering": "d",
+   "tid": "ga",
+   "praemie": 0
+  },
+  {
+   "dato": "2026-10-11",
+   "bane": "Ch",
+   "hest": "Charlie Munger (SE)",
+   "placering": "3",
+   "tid": "15,5a",
+   "praemie": 3500
+  }
+ ],
+ "kommende": [
+  {
+   "dato": "2026-11-20",
+   "bane": "Od",
+   "loeb": 3,
+   "hest": "Mason",
+   "kusk": "Christian Clausen"
+  }
+ ]
+}

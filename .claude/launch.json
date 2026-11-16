@@ -1,0 +1,1 @@
+{"version":"0.0.1","configurations":[{"name":"v2","runtimeExecutable":"node","runtimeArgs":["build.mjs","--serve"],"port":4174}]}
