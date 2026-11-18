@@ -1,5 +1,5 @@
 {
- "opdateret": "2026-11-17T13:22:05.376Z",
+ "opdateret": "2026-11-18T13:00:53.653Z",
  "traener": {
   "foedt": 1950,
   "hjemmebane": "Charlottenlund Trav",
@@ -4358,9 +4358,17 @@
   {
    "dato": "2026-11-22",
    "bane": "Ch",
-   "loeb": 91,
-   "hestId": 657131,
-   "hest": "Magic Bird",
+   "loeb": 5,
+   "hestId": 654582,
+   "hest": "Lemmy",
+   "kusk": "Patrick Larsen"
+  },
+  {
+   "dato": "2026-11-22",
+   "bane": "Ch",
+   "loeb": 8,
+   "hestId": 656378,
+   "hest": "Madison Tårs",
    "kusk": "Patrick Larsen"
   }
  ]
